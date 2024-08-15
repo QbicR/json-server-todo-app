@@ -4,7 +4,7 @@ const fs = require("fs");
 
 const server = jsonServer.create();
 
-const db = JSON.parse(fs.readFileSync(path.join("db.json")));
+const db = JSON.parse(fs.readFileSync(path.join("json-server/db.json")));
 
 const router = jsonServer.router(db);
 
