@@ -1,17 +1,17 @@
 {
   "builds": [
     {
-      "src": "server.js",
+      "src": "json-server/index.js",
       "use": "@vercel/node",
       "config": {
-        "includeFiles": ["db.json"]
+        "includeFiles": ["json-server/db.json"]
       }
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "server.js"
+      "dest": "json-server/index.js"
     }
   ]
 }
