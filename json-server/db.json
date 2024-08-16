@@ -1,3 +1,129 @@
 {
-  "todos": []
+  "todos": [],
+  "en": {
+    "header": {
+      "app": "TODO list",
+      "modal": {
+        "add": "Adding a TODO",
+        "change": "Changing a TODO",
+        "delete": "Deleting a TODO"
+      }
+    },
+    "button": {
+      "addTodo": "Add TODO",
+      "add": "Add",
+      "save": "Save",
+      "delete": "Delete",
+      "cancel": "Cancel",
+      "find": "Find",
+      "home": "Home",
+      "reload": "Reload",
+      "todos": "TODOs"
+    },
+    "tooltip": {
+      "delete": "Delete",
+      "change": "Change",
+      "lang": "Change lang"
+    },
+    "select": {
+      "all": "All TODOs",
+      "completed": "Completed",
+      "active": "Active"
+    },
+    "field": {
+      "search": {
+        "placeholder": "Search"
+      },
+      "name": {
+        "placeholder": "Enter a name",
+        "label": "Name",
+        "requiredError": "Field must be filled in",
+        "lengthError": "Name too long"
+      },
+      "description": {
+        "placeholder": "Enter a description",
+        "label": "Description",
+        "lengthError": "Description too long"
+      }
+    },
+    "error": {
+      "empty": "There is nothing",
+      "somethingWentWrong": "Something went wrong. Try again."
+    },
+    "text": {
+      "deleteModal": "Are you sure you want to delete the case?",
+      "errorBoundary": "An unexpected error occurred. Refresh the page.",
+      "loading": "Loading",
+      "wrongAddress": "Unfortunately, you have visited a non-existent page. Perhaps you followed an old link or entered an incorrect address.",
+      "checkLink": "Check the link or return to the main page."
+    },
+    "title": {
+      "main": "My TODOs",
+      "notFound": "Page not found",
+      "default": "TODO list"
+    }
+  },
+  "ru": {
+    "header": {
+      "app": "Мои дела",
+      "modal": {
+        "add": "Добавление дела",
+        "change": "Изменение дела",
+        "delete": "Удаление дела"
+      }
+    },
+    "button": {
+      "addTodo": "Добавить дело",
+      "add": "Добавить",
+      "save": "Сохранить",
+      "delete": "Удалить",
+      "cancel": "Отменить",
+      "find": "Найти",
+      "home": "На главную",
+      "reload": "Обновить",
+      "todos": "Дела"
+    },
+    "tooltip": {
+      "delete": "Удалить",
+      "change": "Изменить",
+      "lang": "Сменить язык"
+    },
+    "select": {
+      "all": "Все дела",
+      "completed": "Выполненные",
+      "active": "Не выполненные"
+    },
+    "field": {
+      "search": {
+        "placeholder": "Поиск"
+      },
+      "name": {
+        "placeholder": "Ведите наименование",
+        "label": "Наименование",
+        "requiredError": "Поле должно быть заполнено",
+        "lengthError": "Слишком длинное наименование"
+      },
+      "description": {
+        "placeholder": "Введите комментарий",
+        "label": "Комментарий",
+        "lengthError": "Слишком длинный комментарий"
+      }
+    },
+    "error": {
+      "empty": "Ничего нет",
+      "somethingWentWrong": "Что-то пошло не так. Попробуйте еще раз."
+    },
+    "text": {
+      "deleteModal": "Вы уверены, что хотите удалить дело?",
+      "errorBoundary": "Произошла непредвиденная ошибка. Обновите страницу.",
+      "loading": "Загрузка",
+      "wrongAddress": " К сожалению, вы зашли на несуществующую страницу. Возможно, вы перешли по старой ссылке или ввели неправильный адрес.",
+      "checkLink": "Проверьте ссылку или вернитесь на главную страницу."
+    },
+    "title": {
+      "main": "Мои дела",
+      "notFound": "Страница не найдена",
+      "default": "Список дел"
+    }
+  }
 }
