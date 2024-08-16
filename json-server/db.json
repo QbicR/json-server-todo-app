@@ -60,6 +60,7 @@
     "title": {
       "main": "My TODOs",
       "notFound": "Page not found",
+      "errorBoundary": "Something went wrong",
       "default": "TODO list"
     }
   },
@@ -123,6 +124,7 @@
     "title": {
       "main": "Мои дела",
       "notFound": "Страница не найдена",
+      "errorBoundary": "Что-то пошло не так",
       "default": "Список дел"
     }
   }
